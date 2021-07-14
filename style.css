@@ -1,5 +1,9 @@
 
-
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
  body{
     font-family: 'Poppins', sans-serif;
     margin: 0px 0px;
@@ -63,7 +67,7 @@
    header-style-end--------------- */
 
 
-   
+
 
 /*------------------------
 players-style-start
@@ -102,3 +106,35 @@ players-style-start
 /*------------------------
 players-style-end
 -------------------------- */
+
+
+/* match-highlight-style-start */
+.banner{
+    display: flex;
+    width: 1075px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    column-gap: 100px;
+}
+
+.banner-details h1{
+ font-size: 50px;
+ margin-bottom: 10px;
+ margin-top: 0px;
+}
+
+.banner-details p{
+    margin-bottom: 30px;
+}
+
+.banner-thumbnail img{
+    width: 560px;
+    height: 420px;
+    border-radius: 25px;
+
+}
+/* match-highlight-style-end */
+
+
+
+
