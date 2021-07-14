@@ -108,12 +108,12 @@ players-style-end
 -------------------------- */
 
 
-/* match-highlight-style-start */
+/* ---------------------------------------
+match-highlight-style-start----------------- */
 .banner{
     display: flex;
     width: 1075px;
     margin-top: 150px;
-    margin-bottom: 150px;
     column-gap: 100px;
 }
 
@@ -133,7 +133,50 @@ players-style-end
     border-radius: 25px;
 
 }
-/* match-highlight-style-end */
+
+#result-banner{
+    margin-bottom: 100px;
+}
+/* ---------------------------------------
+match-highlight-style-end----------------- */
+
+
+
+
+/* ---------------------------------------
+Footer-style-start----------------- */
+
+.footer{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+
+.footer .logo img{
+    width: 356px; 
+    height: 85px;
+}
+
+.social-icons{
+    display: flex;
+}
+
+.social-icon a{
+    margin-left: 30px;
+    font-size: 20px;
+    color: E02C6D;
+    color: #C0C0C0;
+}
+
+/* ---------------------------------------
+Footer-style-end----------------- */
+
+
+
 
 
 
