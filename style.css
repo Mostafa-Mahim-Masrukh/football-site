@@ -63,6 +63,12 @@ main{
      height: 430px;
  }
 
+ .header-image:hover img{
+     transform: scale(1.2) rotate(25deg);
+     transition: transform 2s;
+ }
+
+
   /*--------------------------------
    header-style-end--------------- */
 
